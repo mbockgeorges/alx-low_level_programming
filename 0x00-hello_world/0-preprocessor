@@ -1,2 +1,2 @@
 #!/bin/bash
-ls #include <$CFILE> > file c
+ls #define $CFILE > file c

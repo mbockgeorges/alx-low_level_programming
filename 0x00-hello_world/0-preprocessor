@@ -1,2 +1,2 @@
 #!/bin/bash
-ls #define $CFILE > file c
+ls #define $CFILE main.c > file c

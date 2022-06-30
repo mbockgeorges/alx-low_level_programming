@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE | export CFILE="0-main.c" > file c
+ls < gcc $CFILE | export CFILE="0-main.c" > file c

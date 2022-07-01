@@ -3,8 +3,8 @@
 
 /**
  *main - Entry point
- *the using the printf function
- *Return 0(Success)
+ *the use the function printf
+ *Return 0 (Success)
  */
 int main(void)
 {

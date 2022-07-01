@@ -2,11 +2,11 @@
 
 
 /**
- *	*main -Entry point
- *	*the use funtion puts
- *	*Return: Always 0 (Success)
+ * main -Entry point
+ * the use funtion puts
+ * Return: Always 0 (Success)
  *
- *	*/
+ */
 
 int main (void)
 {

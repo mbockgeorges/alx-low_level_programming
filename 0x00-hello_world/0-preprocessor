@@ -1,2 +1,2 @@
 #!/bin/bash
-#define export CFIL=0-main.c ; ./0-preprocessor > file c
+gcc e $CFILE -oc  

@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -o $CFILE $CFIE.s
+gcc -S -masm=itel $CFILE $CFILE.s

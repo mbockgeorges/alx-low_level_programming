@@ -3,7 +3,7 @@
 
 /**
  *main - Entry point
- *Return: Always o (Success)
+ *Return: Always 0 (Success)
  *
  */
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 	long long int l;
 	float f;
 	char c;
-	
+
 	printf("size of a char: %lu byte(s)\n", sizeof(c));
 	printf("size of an int: %lu byte(s)\n", sizeof(i));
 	printf("size of a long int: %lu byte(s)\n", sizeof(I));

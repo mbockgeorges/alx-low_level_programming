@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -masm=itel $CFILE -o CFILE.s
+gcc -asm=itel $CFILE -o CFILE.s

@@ -8,3 +8,4 @@ Write a programm that prints all single numbers of basse  10 starting from 0
 Write a programm that prints the alphabet in lowercase inverse
 Write a programm that prints all numbers in base16
 Write a programm prints all possible combinaisons of single-digit numbers
+Write a programm that prints all different combainaisons of two digits.

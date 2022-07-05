@@ -10,3 +10,4 @@ Write a programm that prints all numbers in base16
 Write a programm prints all possible combinaisons of single-digit numbers
 Write a programm that prints all different combainaisons of two digits.
 Write a programm that prints all different combinaisons of tree digits.
+Write a programm that prints all combinaisons of two two-digit numbers

@@ -5,3 +5,4 @@ Write a program that prints the alphabets in lowercasse  and uppercase, followed
 Write a program that prints the alphabet in lowercas, followed by new line prints all letters except q and e
 Write a  programm that prints all single digit numbers of base 10
 Write a programm that prints all single numbers of basse  10 starting from 0
+Write a programm that prints the alphabet in lowercase inverse

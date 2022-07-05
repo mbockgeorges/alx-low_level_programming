@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main -Prints all possible  combinaisonsof two two digit numbers ranging from 0-99, separed by comma followed espace
+ *main -Prints all combinaison two two digit numbers ranging from 0-99
  *the use function  putchar
  *Return: Always 0 (Success)
  */
@@ -16,7 +16,6 @@ int main(void)
 		{
 			putchar((n / 10) + '0');
 			putchar((n % 10) + '0');
-			putchar(',');
 			putchar((m / 10) + '0');
 			putchar((m % 10) + '0');
 
@@ -25,10 +24,13 @@ int main(void)
 
 			putchar(',');
 			putchar(' ');
+
 		}
+
 	}
 
 	putchar('\n');
 
 	return (0);
+
 }

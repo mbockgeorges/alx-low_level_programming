@@ -1,6 +1,1 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-void _putchar(void);
-
-#endif
+int _putchar(char* c);

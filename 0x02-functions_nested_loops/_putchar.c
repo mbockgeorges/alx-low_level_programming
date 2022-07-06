@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int _putchar(char* c)
+int _putchar(char c)
 {
-	printf("_putchar %s\n", c);
+	printf("%c\n", c);
 	
 	return (0);
+
 }

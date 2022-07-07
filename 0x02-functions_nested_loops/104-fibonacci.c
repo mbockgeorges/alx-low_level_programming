@@ -19,7 +19,7 @@ int main(void)
 		b = a;
 		a = z;
 
-		printf("%lu", z);
+		printf("%ld", z);
 
 		if (i != 97)
 			printf(", ");

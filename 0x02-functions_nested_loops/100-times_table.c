@@ -21,7 +21,7 @@ void print_times_table(int n)
 				if (d < 100 && j != 0)
 					_putchar(' ');
 				else if (j != 0)
-					_putchar((d / 100) + 'O');
+					_putchar((d / 100) + '0');
 
 				if (d < 10 && j != 0)
 					_putchar(' ');
@@ -38,7 +38,7 @@ void print_times_table(int n)
 
 			}
 
-				_putchar('\n');
+			_putchar('\n');
 		}
 	}
 

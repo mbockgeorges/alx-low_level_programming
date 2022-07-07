@@ -14,6 +14,7 @@ void times_table(void)
 			for (y = 0; y <= 9; y++)
 			{
 				z = x * y;
+				
 				if (z < 100 && y != 0)
 					_putchar(' ');
 				else if (y != 0)
@@ -33,6 +34,9 @@ void times_table(void)
 				{
 					_putchar(',');
 				}
+				
+			
 			}
 		}
+
 }

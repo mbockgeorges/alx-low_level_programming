@@ -11,7 +11,7 @@ int main(void)
 	unsigned long int a = 1;
 	unsigned long int z = 0;
 
-	int i = 0;
+	int i;
 
 	for (i = 0; i < 98; i++)
 	{

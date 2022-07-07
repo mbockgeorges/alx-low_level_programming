@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - print
- * Description: it's a function that prints 10 times the numbers, from 0 to 14
+ * Description: prints 10 times the numbers, from 0 to 14
  * Return: nothing
  */
 void more_numbers(void)
@@ -17,7 +17,7 @@ void more_numbers(void)
 				_putchar('1');
 
 			_putchar((c % 10) + '0');
-		}	
+		}
 
 		_putchar('\n');
 	}

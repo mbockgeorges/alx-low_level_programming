@@ -3,7 +3,7 @@
 /**
  * print_numbers - function
  *
- * Description: it's a function that prints the digit, followed by a new line
+ * Description: prints  the numbers, from 0 to 9, followed by a new line
  * Return: nothing
  */
 void print_numbers(void)

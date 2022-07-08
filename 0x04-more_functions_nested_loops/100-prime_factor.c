@@ -2,13 +2,12 @@
 
 /**
  * main -Entry point
- * Description:  finds and prints the largest prime factor of 612852475143
+ * Description:finds and prints the largest prime factor of 612852475143
  * Return:0
  */
 
 int main(void)
 {
-
 	unsigned long number = 612852475143;
 	unsigned long prime number = 1;
 	unsigned long i = 2;
@@ -24,10 +23,8 @@ int main(void)
 		else
 			i++;
 	}
-
 	if (prime_number >= 2)
 		printf("%lu\n", prime_number);
 
 	return (0);
-
 }

@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -11,4 +12,6 @@ int main(void)
 
 	i = 98;
 	positive_or_negative(i);
+
+	return (0);
 }

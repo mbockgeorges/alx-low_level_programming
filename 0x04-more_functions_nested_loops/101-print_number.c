@@ -17,11 +17,9 @@ void print_number(int n)
 		d = -n;
 	}
 
-	if (d > 9)
+	if ((d / 10) > 0)
 	{
 		print_number(d / 10);
-		_putchar((d % 10) + '0');
 	}
-	else
-		_putchar(d + '0');
+	_putchar((d % 10) + '0');
 }

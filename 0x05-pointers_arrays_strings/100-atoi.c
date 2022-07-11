@@ -13,7 +13,7 @@ int _atoi(char *s)
 	int n = 0;
 	int i = 0;
 	int sign = 1;
-	int is_n = (-1);
+	int is_n = -1;
 
 	if (s == NULL)
 		return (n);
@@ -21,12 +21,12 @@ int _atoi(char *s)
 	while (s[i] != '\0')
 	{
 		if (s[i] == '-')
-			sign *= (-1);
+			sign *= -1;
 		else if ('0' <= s[i] && s[i] <= '9')
 		{
 			if (is_n == 0)
 				break;
-			else if (is_n == (-1))
+			else if (is_n == -1)
 				is_n = 1;
 
 			if ((n * 10) >= INT_MAX - (s[i] - '0'))
@@ -39,7 +39,7 @@ int _atoi(char *s)
 		i++;
 	}
 
-	if (n == INT_MAX && sign == (-1))
+	if (n == INT_MAX && sign == -1)
 		n = (-n) - 1;
 	else
 		n *= sign;

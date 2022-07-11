@@ -36,7 +36,7 @@ int _atoi(char *s)
 		}
 		else if (is_n == 1)
 			is_n = 0;
-		i++
+		i++;
 	}
 
 	if (n == INT_MAX && sign == (-1))

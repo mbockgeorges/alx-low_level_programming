@@ -5,13 +5,12 @@
  * Description:finds and prints the largest prime factor of 612852475143
  * Return:0
  */
-
 int main(void)
 {
 	unsigned long number = 612852475143;
 	unsigned long prime number = 1;
 	unsigned long i = 2;
-
+	
 	while (i <= number)
 	{
 		if (number % i == 0)

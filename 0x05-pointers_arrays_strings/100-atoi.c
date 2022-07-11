@@ -10,39 +10,39 @@
  */
 int _atoi(char *s)
 {
-	int n = 0;
+	int number = 0;
 	int i = 0;
-	int sign = 1;
-	int is_n = -1;
+	int signe = 1;
+	int is_number = -1;
 
 	if (s == NULL)
-		return (n);
+		return (number);
 
 	while (s[i] != '\0')
 	{
 		if (s[i] == '-')
-			sign *= -1;
+			signe *= -1;
 		else if ('0' <= s[i] && s[i] <= '9')
 		{
-			if (is_n == 0)
+			if (is_number == 0)
 				break;
-			else if (is_n == -1)
-				is_n = 1;
+			else if (is_number == -1)
+				is_number = 1;
 
-			if ((n * 10) >= INT_MAX - (s[i] - '0'))
-				n = INT_MAX;
+			if ((number * 10) >= INT_MAX - (s[i] - '0'))
+				number = INT_MAX;
 			else
-				n = (n * 10) + (s[i] - '0');
+				number = (number * 10) + (s[i] - '0');
 		}
-		else if (is_n == 1)
-			is_n = 0;
+		else if (is_number == 1)
+			is_number = 0;
 		i++;
 	}
 
-	if (n == INT_MAX && sign == -1)
-		n = (-n) - 1;
+	if (number == INT_MAX && signe == -1)
+		number = (-number) - 1;
 	else
-		n *= sign;
+		number *= signe;
 
-	return (n);
+	return (number);
 }

@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  *_atoi - function
@@ -20,7 +19,7 @@ int _atoi(char *s)
 		i++;
 	}
 
-	while ((s[i] <= '9' && s[i] >= '0') && s[i] != '\0')
+	while (s[i] <= '9' && (s[i] >= '0' && s[i] != '\0'))
 	{
 		res = (res * 10) + (s[i] - '0')
 		i++;

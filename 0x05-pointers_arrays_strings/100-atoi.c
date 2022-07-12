@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  *_atoi - function
  *@s:char pointer
@@ -24,6 +25,8 @@ int _atoi(char *s)
 		res = (res * 10) + (s[i] - '0')
 		i++;
 	}
+
 	res *= sig;
+
 	return (res);
 }

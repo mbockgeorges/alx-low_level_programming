@@ -19,9 +19,9 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	char retenu = '0';
 
 	while (n1[l1++] != '\0')
-		l1--;
+	l1--;
 	while (n2[l2++] != '\0')
-		l2--;
+	l2--;
 	max = (l1 < l2) ? l2 : l1;
 	if (size_r <= max)
 		return (0);

@@ -17,7 +17,7 @@ void print_number(int n)
 		if (n == INT_MIN)
 			_putchar((-(n - ((n / 10) * 10))) + '0');
 	}
-	else if (0 <= n && n <= 9)
+	else if (n >= 0 && n <= 9)
 	{
 		_putchar(n + '0');
 	}

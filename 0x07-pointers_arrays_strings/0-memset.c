@@ -6,7 +6,7 @@
  *@b: character
  *@n: unsigned integer
  *Description:a function that fills memory with a constant byte
- *Return: result
+ *Return: @s
  */
 char *_memset(char *s, char b, unsigned int n)
 {

@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *_sqrt_recursion - function
+ *real_sqrt - function
  *@A: A == a ^ a
  *@a: sqrt
- *Description:a function that returns the natural square root of a number.
+ *Description:a function that calculates the real sqrt
  *Return:result
  */
 int real_sqrt(int A, int a)

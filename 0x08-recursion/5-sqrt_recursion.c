@@ -6,7 +6,7 @@
  *Description:a function that returns the natural square root of a number.
  *Return:result
  */
-int _sqrt_recursion(int A, int a)
+int real_sqrt(int A, int a)
 {
 	if (a * a > A)
 		return (-1);

@@ -1,11 +1,12 @@
 #include "main.h"
 /**
  *_sqrt_recursion - function
- *@n: integer
+ *@A: A == a ^ a
+ *@a: sqrt
  *Description:a function that returns the natural square root of a number.
  *Return:result
  */
-int _sqrt_recursion(int n)
+int _sqrt_recursion(int A, int a)
 {
 	if (a * a > A)
 		return (-1);

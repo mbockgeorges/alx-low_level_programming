@@ -11,6 +11,7 @@ int _sqrt_recursion(int n)
 		return (-1);
 	if (a * a == A)
 		return (a);
+
 	return (real_sqrt(A, a + 1));
 }
 

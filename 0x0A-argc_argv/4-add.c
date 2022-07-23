@@ -19,7 +19,7 @@ int main(int argc, char **argv)
 		while (argv[i][j])
 		{
 			if ('0' <= argv[i][j] && argv[i][j] <= '9')
-				number = (number * 1à) + (argv[i][j] - '0');
+				number = (number * 10) + (argv[i][j] - '0');
 			else
 			{
 				printf("Error\n");

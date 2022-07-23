@@ -29,5 +29,9 @@ int main(int argc, char **argv)
 		}
 		sum += number;
 		number = 0;
+		j = 0;
+		i++;
 	}
+	printf("%d\n", sum);
+	return (0);
 }

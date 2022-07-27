@@ -12,7 +12,7 @@
 char *_strdup(char *str)
 {
 	int leng = 0;
-	char *copy = 0;
+	char *cpy = 0;
 
 	if (str == 0)
 		return (0);
@@ -20,12 +20,12 @@ char *_strdup(char *str)
 	while (str[leng++])
 		;
 	leng--;
-	copy = (char *)malloc(sizeof(char) * (leng + 1));
-	if (copy)
+	cpy = (char *)malloc(sizeof(char) * (leng + 1));
+	if (cpy)
 	{
-		copy[leng] = '\0';
+		cpy[leng] = '\0';
 		while (--leng >= 0)
-			copy[leng] = str[leng];
+			cpy[leng] = str[leng];
 	}
 	return (cpy);
 }

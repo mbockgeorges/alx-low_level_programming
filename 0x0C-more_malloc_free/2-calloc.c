@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  *_calloc - new allocation
@@ -11,16 +11,16 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *memoire = 0;
+	void *memory = 0;
 	unsigned int i = 0;
 
 	if (nmemb <= 0 || size <= 0)
 		return (0);
-	memoire = malloc(nmemb * size);
+	memory = malloc(nmemb * size);
 
-	if (!memoire)
+	if (!memory)
 		return (0);
 	for (i = 0; i < (nmemb * size); i++)
-		*((char *)memoire + i) = 0;
-	return (memoire);
+		*((char *)memory + i) = 0;
+	return (memory);
 }

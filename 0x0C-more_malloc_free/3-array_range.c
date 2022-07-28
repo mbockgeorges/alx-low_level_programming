@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- *array_array -array
+ *array_range -array
  *@min:min value
  *@max:max value
  *Description:the array created should contain all the values

@@ -9,7 +9,7 @@
  *Description:allocates memory for an array using malloc
  *Return:memory is set to zero
  */
-void *_calloc(usigned int nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *memory = 0;
 	unsigned int i = 0;

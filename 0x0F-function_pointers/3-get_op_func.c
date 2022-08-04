@@ -3,15 +3,13 @@
 #include <string.h>
 
 /**
- *get_op_fun - ...
- *@s:...
- *@a:...
- *@b:...
- *Return:...
+ *get_op_func - function
+ *@s:pointer of char
+ *Return:0
  */
-int (*get_op_func(char *s))(int a, int b)
+int (*get_op_func(char *s))(int, int)
 {
-	op_t ops[] = {
+	op_t op[] = {
 	{ "+", op_add },
 	{ "-", op_sub },
 	{ "*", op_mul },
@@ -25,7 +23,6 @@ int (*get_op_func(char *s))(int a, int b)
 	{
 		if (strcmp(s, ops[i].op) == 0)
 			return (ops[i].f);
-
 		i++;
 	}
 	return (0);

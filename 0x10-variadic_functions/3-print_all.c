@@ -29,7 +29,7 @@ void print_s(va_list s)
 }
 
 /**
- *print-i - prints an int
+ *print_i - prints an int
  *@i:int to print
  *Return:void
  */

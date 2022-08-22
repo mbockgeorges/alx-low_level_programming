@@ -1,4 +1,5 @@
 #include "main"
+#include <stdio.h>
 
 /**
  *error_file - checks if files can be opened.
